@@ -22,8 +22,8 @@ private:
      double delta;
 public:
      //Constructor for Neuron. num_synapse: number of inputs synapse required for
-	 //this neuron. Typically this is the number of neurons in the previous layer,
-	 //or number of features.
+     //this neuron. Typically this is the number of neurons in the previous layer,
+     //or number of features.
      Neuron(const int& num_synapse, const double& learning_rate);
 
      //Activates neuron and synapse. inputs: vector of input features.
