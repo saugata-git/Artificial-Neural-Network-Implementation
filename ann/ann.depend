@@ -1,0 +1,104 @@
+# depslib dependency file v1.0
+1623966811 source:d:\ann-master\ann.cpp
+	<vector>
+	<iostream>
+	<memory>
+	"ANN.h"
+	"Neuron.h"
+	"Instance.h"
+
+1623966811 d:\ann-master\ann.h
+	<vector>
+	"Neuron.h"
+	"Instance.h"
+
+1623966811 d:\ann-master\neuron.h
+	<vector>
+
+1623966811 d:\ann-master\instance.h
+	<vector>
+	<memory>
+	<string>
+
+1623966811 source:d:\ann-master\instance.cpp
+	<vector>
+	<memory>
+	<string>
+	"Instance.h"
+
+1623967201 source:d:\ann-master\main.cpp
+	<iostream>
+	"Neuron.h"
+
+1623966811 source:d:\ann-master\neuron.cpp
+	<vector>
+	<iostream>
+	<math.h>
+	<time.h>
+	"Neuron.h"
+	"utils.h"
+
+1623966812 d:\ann-master\utils.h
+	<vector>
+	<string>
+	<iostream>
+	"Instance.h"
+
+1623975897 source:d:\ann-master\preprocessor.cpp
+	<iostream>
+	<vector>
+	<string>
+	<fstream>
+	<memory>
+	"Instance.h"
+	"preprocessor.h"
+
+1623966811 d:\ann-master\preprocessor.h
+	<vector>
+	<string>
+	"Instance.h"
+
+1623966812 source:d:\ann-master\shell.cpp
+	"shell.h"
+	"utils.h"
+	"ANN.h"
+	"Instance.h"
+	<vector>
+	<string>
+	<iostream>
+	<fstream>
+	<algorithm>
+
+1623966812 d:\ann-master\shell.h
+	<vector>
+	<string>
+	"ANN.h"
+	"Instance.h"
+
+1623977356 source:d:\ann-master\tester.cpp
+	<iostream>
+	<vector>
+	<math.h>
+	<time.h>
+	<algorithm>
+	"shell.h"
+	"Neuron.h"
+	"ANN.h"
+	"Instance.h"
+	"utils.h"
+	"preprocessor.h"
+
+1623968512 source:d:\ann-master\utils.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<memory>
+	<vector>
+	<iostream>
+	"Instance.h"
+
+1623976358 source:d:\saugata\coding\ml\ann\ann\e.cpp
+	<iostream>
+	<fstream>
+	<string>
+
