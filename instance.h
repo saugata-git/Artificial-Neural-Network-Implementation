@@ -33,8 +33,8 @@ struct Instance{
         // Pointer to names of each expected output classification.
         std::shared_ptr<std::vector<std::string> > classes;
 
-		// Constructor for instance class. Data and expected will be converted into
-		// unique pointers. Features and classes are copied
+	// Constructor for instance class. Data and expected will be converted into
+	// unique pointers. Features and classes are copied
         Instance(const std::string& name, std::vector<double>* data,
         std::vector<double>* expected, std::shared_ptr<std::vector<std::string> >& features,
         std::shared_ptr<std::vector<std::string> >& classes );
@@ -56,8 +56,7 @@ struct Instance{
         // Returns name of feature at given index.
         std::string getFeatName(const int& index) const;
         // Returns name of class at given index.
-        std::string getClassName(const int& index) const;
-          
+        std::string getClassName(const int& index) const;  
 };
 
 /* Collection of instances catagorized by the intended use */
