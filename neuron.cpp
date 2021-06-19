@@ -38,7 +38,6 @@ double Neuron::activate(const std::vector<double>& inputs){
    return last_output;
 }
 
-    
 double Neuron::backProp(const std::vector<double>& delta_in, 
 const std::vector<double>& forward_synapse){
    if(delta_in.size() != forward_synapse.size()){
