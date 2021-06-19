@@ -5,10 +5,10 @@
       Implementation for Neuron.
 ******************************/
 
-#include<iostream>
-#include<vector>
-#include<cstdlib>
-#include<cmath>
+#include <iostream>
+#include <vector>
+#include <cstdlib>
+#include <cmath>
 #include "utils.h"
 #include "neuron.h"
 
@@ -73,11 +73,4 @@ double Neuron::getDelta() const{
 
 double sigmoid(const double& x){
    return 1.0 /(1 + exp(-x));
-}
-
-
-int main(){
-
-
-   return 0;
 }
