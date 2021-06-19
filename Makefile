@@ -1,6 +1,6 @@
 CC=g++
 
-CFLAGS= -std=c++14 -c
+CFLAGS= -std=c++14 -c -w
 
 SOURCES= neuron.o utils.o 
 
