@@ -4,8 +4,7 @@
   Description :
     Implementation of Utility functions for ANN.
 ******************************/
-#include<cstdlib>
-//#include "utils.h"
+#include <cstdlib>
 
 double randD(){
     return (double)rand() / RAND_MAX;

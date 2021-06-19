@@ -37,7 +37,7 @@ double Neuron::activate(const std::vector<double>& inputs){
    last_output = sigmoid(sum);
    return last_output;
 }
-
+    
 double Neuron::backProp(const std::vector<double>& delta_in, 
 const std::vector<double>& forward_synapse){
    if(delta_in.size() != forward_synapse.size()){
@@ -73,4 +73,11 @@ double Neuron::getDelta() const{
 
 double sigmoid(const double& x){
    return 1.0 /(1 + exp(-x));
+}
+
+
+int main(){
+
+
+   return 0;
 }
