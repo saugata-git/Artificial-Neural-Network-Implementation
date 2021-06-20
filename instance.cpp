@@ -98,7 +98,7 @@ std::string InstanceSet::getName() const{
     return name;
 }
 
-bool operator==( const InstanceSet& left, const InstanceSet& right ){
+bool operator==( const InstanceSet& left, const InstanceSet& right){
     return left.getName() == right.getName();
 }
 
